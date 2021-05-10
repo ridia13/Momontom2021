@@ -18,7 +18,6 @@ function delToDos(event) {
     });
   toDos = cleanToDos;
   saveToDos();
-  console.log(toDos);
 }
 
 function saveToDos() {
@@ -42,7 +41,6 @@ function paintToDo(text) {
     text: text
   };
   toDos.push(toDoObj);
-  console.log(toDoObj);
   saveToDos();
 }
 
